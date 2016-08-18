@@ -24,9 +24,9 @@ When you want to make changes happen on the page, you need to manipulate the DOM
 
 ## DOM
 
-The Document Object Model or DOM is a key concept to understanding what a browser does with your HTML. The browser looks at your HTML and creates a "tree", much like a family tree of siblings, parents, and children.
+The Document Object Model or DOM is a key concept to understanding what a browser does with your HTML. The browser looks at your HTML and creates a "tree", much like a family tree of siblings, parents, and children. The `<html>` tag has two children, what are they?
 
-Draw the DOM tree for the following HTML
+Draw the DOM tree for the following HTML:
 
 ```html
   <!DOCTYPE html>
