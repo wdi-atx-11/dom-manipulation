@@ -22,7 +22,28 @@ When you want to make changes happen on the page, you need to manipulate the DOM
 - explain the relationship between JavaScript and jQuery and the benefits of using jQuery for DOM manipulation
 - select elements from the page using CSS Selectors and use jQuery to dynamically change the DOM
 
+## DOM
 
+The Document Object Model or DOM is a key concept to understanding what a browser does with your HTML. The browser looks at your HTML and creates a "tree", much like a family tree of siblings, parents, and children.
+
+Draw the DOM tree for the following HTML
+
+```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+    </head>
+    <body>
+      <p> This is an insightful paragraph </p>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+      </ul>
+    </body>
+  </html>
+```
 
 ## Intro to jQuery
 jQuery is just JavaScript! It was invented in 2005 and has made our lives as developers better ever since.
@@ -72,16 +93,16 @@ As you're working with jQuery to manipulate DOM elements, you are almost always 
 - `$("CSS Selector").someJqueryMethodName()` - **getting** a value  
 - `$("CSS Selector").someJqueryMethodName(setterValue)` - **setting** a value
 
-For example, if you are viewing this readme on github.com, then you can try the following in your Chrome Developer Console:  
-- `$('article').text()` -- **get** the text of the readme (it lives inside of an `article` tag)  
-- `$('article').text("Boo!")` -- **set** the text of the readme to "Boo!"
+For example, if you are viewing the home page on jQuery.com, then you can try the following in your Chrome Developer Console:  
+- `$('p').text()` -- **get** the text of the readme (it lives inside of an `article` tag)  
+- `$('p').text("Boo!")` -- **set** the text of the readme to "Boo!"
 
 Wowza!
 ![wow](https://cloud.githubusercontent.com/assets/6520345/13719043/1bdbe8ce-e7a5-11e5-96ac-ea05ad01df88.gif)
 
 Let's try another:  
-- `$('article').css("background-color")` -- **get** the background color  
-- `$('article').css("background-color", "blue")` -- **set** the background color to blue.
+- `$('p').css("background-color")` -- **get** the background color  
+- `$('p').css("background-color", "orange")` -- **set** the background color to blue.
 
 #### Documentation
 Check out the `.text()` and `.css()` methods in the jQuery API Documentation: [text](http://api.jquery.com/text/), [css](http://api.jquery.com/css/).
