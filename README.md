@@ -116,6 +116,7 @@ For more cool DOM manipulation tricks, you'll need to hit the docs:
 
 The more you struggle with this kind of documentation, the stronger your coding-chops will become!
 
+![Slight Frustration](https://cloud.githubusercontent.com/assets/4304660/25284777/bd463e40-267d-11e7-988e-4aa27d644b59.gif)
 
 #### jQuery is just Javascript
 Everything you do in jQuery can be done in pure/vanilla javascript.
