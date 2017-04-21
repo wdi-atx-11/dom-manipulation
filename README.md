@@ -97,7 +97,7 @@ For example, if you are viewing the home page on jQuery.com, then you can try th
 - `$('p').text()` -- **get** the text of the readme (it lives inside of an `article` tag)  
 - `$('p').text("Boo!")` -- **set** the text of the readme to "Boo!"
 
-Wowza!
+
 ![wow](https://cloud.githubusercontent.com/assets/6520345/13719043/1bdbe8ce-e7a5-11e5-96ac-ea05ad01df88.gif)
 
 Let's try another:  
