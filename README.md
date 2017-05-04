@@ -73,7 +73,7 @@ To do this, we have two options:
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
     </head>
     <body>
         <!-- Nothing here yet! -->
@@ -102,7 +102,7 @@ For example, if you are viewing the home page on jQuery.com, then you can try th
 
 Let's try another:  
 - `$('p').css("background-color")` -- **get** the background color  
-- `$('p').css("background-color", "orange")` -- **set** the background color to blue.
+- `$('p').css("background-color", "orange")` -- **set** the background color to orange.
 
 #### Documentation
 Check out the `.text()` and `.css()` methods in the jQuery API Documentation: [text](http://api.jquery.com/text/), [css](http://api.jquery.com/css/).
